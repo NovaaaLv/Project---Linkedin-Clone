@@ -1,0 +1,525 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+:root {
+  --text-sub: #757474;
+  --bg-input: #edf3f8;
+}
+
+.color-text-desk {
+  color: var(--text-sub);
+}
+nav {
+  background-color: white;
+  max-height: 55px;
+}
+body {
+  background-color: #ede4ed;
+}
+
+.navc-1 {
+  display: flex;
+  flex-direction: row;
+}
+.navc-2 {
+  display: flex;
+  flex-direction: row;
+}
+/* .bungkus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.inp-nav:focus {
+  outline: none;
+}
+.inp-nav::placeholder,
+.inp-nav {
+  font-size: 12px;
+  color: black;
+}
+.inp-nav {
+  background-color: transparent;
+}
+
+.search-nav {
+  background-color: var(--bg-input);
+  border: none;
+  width: 250px;
+  height: 30px;
+  align-items: center;
+}
+
+.nav-link-menu {
+  width: 130px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13.5px;
+  color: black;
+  opacity: 0.8;
+  font-weight: 600;
+}
+.garis {
+  width: 1.5px;
+  background-color: grey;
+  margin: 0px 20px 0px 0px;
+  opacity: 0.5;
+  height: 50px;
+}
+
+.nav-link-menu:hover {
+  opacity: 1;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.wcard {
+  height: 140px;
+  background-color: blue;
+  z-index: 2;
+}
+
+.img-profil {
+  z-index: 1;
+  margin: 10px 0px 100px 0px;
+}
+
+.wrap {
+  margin-top: 85px;
+  gap: 1.5rem;
+}
+
+.wrap ul {
+  list-style-type: none;
+}
+
+.group {
+  border-radius: 20px;
+  width: 400px;
+}
+.first {
+  margin-left: 102px;
+}
+.second {
+  width: 550px;
+  background-color: white;
+}
+.seconds {
+  width: 550px;
+  background-color: white;
+  max-height: 400px;
+}
+.third {
+  background-color: white;
+  width: 290px;
+  max-height: 300px;
+}
+
+.padd-left-25 {
+  padding-left: 25px;
+}
+.padd-right-25 {
+  padding-right: 25px;
+}
+
+.back-1 {
+  width: 270px;
+  height: 100px;
+  margin-bottom: -10px;
+}
+.back-2 {
+  background-color: white;
+  padding: 70px 0px 60px 0px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+  text-align: center;
+  width: 270px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kiri1 {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  z-index: 0;
+  text-align: center;
+}
+
+.kamera {
+  position: absolute;
+  left: 5.5rem;
+  top: 2rem;
+  z-index: 1;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.hover-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-hal-utama {
+  font-size: 13px;
+  font-weight: 600;
+  color: #5f5f5f;
+  text-align: left;
+  display: flex;
+}
+.text-hal-utama-nav {
+  font-size: 11px;
+  font-weight: 500;
+  color: #5f5f5f;
+  text-align: left;
+  display: flex;
+}
+.op-06 {
+  opacity: 0.8;
+}
+
+.rounded-nv {
+  border-radius: 90px;
+  border: 1px solid rgb(172, 167, 167);
+}
+
+.rounded-nv-card {
+  border: 1px solid rgb(177, 176, 176);
+  border-radius: 10px;
+}
+
+.rounded-nv-card input {
+  cursor: pointer;
+}
+.rounded-nv-card input::placeholder {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.garis-sortir {
+  width: 70%;
+  height: 1px;
+  background-color: #5f5f5f;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.text-muted {
+  font-weight: normal;
+  font-size: 12px;
+  margin-right: 5px;
+  width: 80px;
+}
+.dropdown-toggle {
+  font-size: 12.5px;
+}
+
+.wrapcard {
+  max-width: 550;
+}
+.wrap2 {
+  width: 550px;
+}
+
+.m--10 {
+  margin-left: -30px;
+}
+
+.text-head {
+  font-size: 16px;
+  font-weight: 550;
+  color: rgb(70, 70, 70);
+}
+
+.text-medium {
+  font-size: 14px !important;
+  color: black;
+}
+.text-small {
+  font-size: 12.5px !important;
+  color: var(--text-sub);
+}
+.text-smaller {
+  font-size: 11.5px;
+  color: var(--text-sub);
+}
+
+.see-who-hiring {
+  background-color: white;
+  width: 290px;
+  height: 300px;
+}
+
+.footer-pesan {
+  width: 300px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 1px 10px 0px grey;
+  border-radius: 10px 10px 0px 0px;
+}
+.footer-pesan:hover {
+  height: 500px;
+  align-items: baseline;
+}
+
+.footer-pesan button {
+  background-color: transparent;
+  border: 0;
+}
+
+.container-pesan {
+  margin-right: 22px;
+}
+
+@media (max-width: 992px) {
+  .nav-link.d-lg-inline {
+    display: none !important;
+  }
+}
+
+/* Add For network */
+
+.left {
+  width: 300px;
+}
+.right {
+  width: 750px;
+}
+
+.text-large {
+  font-size: 16px;
+  color: var(--text-sub);
+}
+
+.text-network {
+  color: var(--text-sub);
+}
+
+.btn-premium {
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  color: #000000e6;
+  background-color: #f9c982;
+}
+
+/* Card */
+
+.card {
+  width: 250px;
+  border: none;
+  border-radius: 14px !important;
+}
+.area1 {
+  background-color: var(--text-sub);
+  border-top-left-radius: 14px !important;
+  border-top-right-radius: 14px !important;
+  padding-top: 10px !important;
+}
+.image {
+  top: -32px;
+  position: relative;
+}
+
+.area2 {
+  background-color: #fff;
+  border-bottom-left-radius: 14px !important;
+  border-bottom-right-radius: 14px !important;
+}
+.name {
+  font-size: 25px;
+  font-weight: 650;
+}
+
+@media (max-width: 700px) {
+  .list-icons {
+    display: block;
+  }
+}
+
+/* Job page */
+
+.left-job {
+  width: 250px;
+  background-color: white;
+}
+
+.middle-job {
+  width: 560px;
+  height: 140px;
+  background-color: white;
+}
+/* 
+.btn-ikuti {
+  border-radius: 20px;
+  color: blue;
+  font-size: 18px;
+  border: 1px solid blue;
+  background-color: transparent;
+  padding: 0px 10px;
+  width: 100%;
+}
+.btn-ikuti:hover {
+  background-color: #e2f0fe;
+  border: 2px solid blue;
+}
+
+.right-job {
+} */
+
+.notif-trans:hover {
+  rotate: 30deg;
+}
+.notif-trans {
+  transition: rotate 30ms;
+}
+
+.footer-linkedin {
+  gap: 10px 0px;
+}
+
+.footer-linkedin a {
+  color: #5f5f5f;
+  text-decoration: none;
+}
+
+.footer-linkedin a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.container-mt {
+  margin-top: 4.5rem;
+}
+
+.container-main-pesan {
+  background-color: white;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+}
+
+.container-icon button {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.container-sect-1 {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 17px;
+}
+
+.size-icon-pesan {
+  font-size: 20px;
+}
+.size-icon-input {
+  font-size: 16px;
+}
+
+/* Bagian Input Search */
+.container-input-cariPesan {
+  background-color: var(--bg-input);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.container-input-cariPesan input {
+  outline: none !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.container-input-cariPesan input::placeholder {
+  font-size: 14px;
+}
+
+.gap-10 {
+  gap: 5rem;
+}
+
+.container-middle-sect1 {
+  width: 450px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.con-date:before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: #5f5f5f;
+  top: 13px;
+  right: 40px;
+  opacity: 0.4;
+}
+
+.con-date:after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: #5f5f5f;
+  top: 13px;
+  left: 40px;
+  opacity: 0.4;
+}
+
+.message-area {
+  background-color: #ede4ed;
+  outline: none;
+  border-radius: 10px;
+  border: transparent;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.message-area::placeholder {
+  font-size: 14px;
+}
+
+.btn-notify button {
+  background-color: transparent;
+  padding: 0px 10px;
+  border-radius: 20px;
+  border: 1px solid #5f5f5f;
+  font-weight: 600;
+}
+
+.btn-notify button:focus {
+  background-color: rgb(74, 160, 74);
+  color: white;
+}
+
+.btn-follow {
+  border-radius: 20px;
+  color: blue;
+  font-size: 18px;
+  border: 1px solid blue;
+  background-color: transparent;
+  padding: 0px 10px;
+}
